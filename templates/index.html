@@ -11,7 +11,7 @@
         <a href="#">Home</a>
         <a herf="#">About</a>
         <a herf="#">Projects</a>
-        <a herf="#">Contact</a>
+        <a herf="#contact">Contact</a>
     </nav>
     <section class="hero">
         <img src="{{ url_for('static',
@@ -28,9 +28,18 @@ width="200">
     <p>My dream is to become a professional Python developer and build amazing websites.</p>
     <button onclick="alert('I will become a professional Python developer.!')">
         My Dream
+    </button>
     <button onclick="alert('Thank you for visiting my portfolio!')">
-    Hire Me
-</button>
- </button>
+        Hire Me
+    </button>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>WhatsApp:
+            <a href="https://wa.me/+2347054119725">
+                Chat with me on WhatsApp
+            </a>
+        </p>
+        <p>Email: mountzion76753@gmail.com</p>
+    </section>
  </body>
  </html>
