@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <title>Trinity's Python portfolio</title>
+    <link rel="stylesheet"
+    href="{{ url_for ('static', 
+    filename='style.css') }}">
+    </head>
+    <body>
+    <nav>
+        <a href="#">Home</a>
+        <a herf="#">About</a>
+        <a herf="#">Projects</a>
+        <a herf="#">Contact</a>
+    </nav>
+    <section class="hero">
+        <img src="{{ url_for('static',
+filename='image/me.jpg') }}" alt="My Photo" 
+width="200">
+    
+                <h1>Welcome to Trinity's Python portfolio.</h1>
+    <p>I built this website with Python and Flask.</p>
+    <h2>Future Python Developer</h2>
+    <p> I love building websites with python, Flask, HTML and css.
+        Every day i am becoming a better programmer.
+    </p>
+    <h3>My name is Trinity i am 21 years old.</h3>
+    <p>My dream is to become a professional Python developer and build amazing websites.</p>
+    <button onclick="alert('I will become a professional Python developer.!')">
+        My Dream
+    <button onclick="alert('Thank you for visiting my portfolio!')">
+    Hire Me
+</button>
+ </button>
+ </body>
+ </html>
